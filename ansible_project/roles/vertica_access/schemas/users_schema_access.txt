@@ -1,2 +1,0 @@
-testuser_dmd,testrole_dmd
-testuser_dmd_2,testrole_dmd
