@@ -3,5 +3,6 @@
 
 - name: check vsql is available
   import_tasks: vsql.yml
+  tags: vertica_host
 
       
