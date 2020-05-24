@@ -1,3 +1,7 @@
-tasks:
-  - shell: echo 'test'
+---
+# file: roles/common/tasks/main.yml
+
+- name: check vsql is available
+  import_tasks: vsql.yml
+
       
