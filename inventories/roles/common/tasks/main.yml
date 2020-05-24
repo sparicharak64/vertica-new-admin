@@ -1,0 +1,3 @@
+tasks:
+  - shell: echo 'test'
+      
