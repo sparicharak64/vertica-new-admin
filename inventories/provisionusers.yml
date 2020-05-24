@@ -1,6 +1,6 @@
 ---
 # file: provisionusers.yml
-- hosts: all
+- hosts: master
   roles:
     - batch_generic_etl_users
     - mmid_dev_users
