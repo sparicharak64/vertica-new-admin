@@ -2,7 +2,7 @@
 # file: provisionusers.yml
 - hosts: master
   connection: local
-  gather_facts: false
+  gather_facts: no
   vars:
     db_name: advana
   roles:

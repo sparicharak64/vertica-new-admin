@@ -2,7 +2,6 @@
 # file: roles/common/tasks/main.yml
 
 - name: check vsql is available
-  hosts: master
   import_tasks: vsql.yml
 
       
