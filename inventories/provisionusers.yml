@@ -1,6 +1,10 @@
 ---
 # file: provisionusers.yml
 - hosts: master
+  connection: local
+  gather_facts: false
+  vars:
+    db_name: advana
   roles:
     - common
     - batch_generic_etl_users
