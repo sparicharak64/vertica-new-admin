@@ -1,0 +1,5 @@
+---
+vertica_host: "{{ lookup('env','VERTICA_HOST') }}"
+vertica_port: "{{ lookup('env','VERTICA_PORT') }}"
+password: "{{ lookup('env','VERTICA_PASSWORD') }}"
+db_name: advana

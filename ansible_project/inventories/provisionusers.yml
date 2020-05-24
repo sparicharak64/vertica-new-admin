@@ -1,0 +1,7 @@
+---
+# file: provisionusers.yml
+- hosts: all
+  roles:
+    - batch_generic_etl_users
+    - mmid_dev_users
+    - dba
