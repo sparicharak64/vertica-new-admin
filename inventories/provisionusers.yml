@@ -7,7 +7,5 @@
     db_name: advana
   roles:
     - common
-    - batch_generic_etl_users
-    - mmid_dev_users
-    - dba
+
     
