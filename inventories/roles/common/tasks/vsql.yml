@@ -1,7 +1,4 @@
 ---
-- name: Transfer and execute a script.
-  hosts: all
-  tasks:
-
-     - name: test
-       script: sh /scripts/get_table_name.sh
+- name: My first task
+  script: sh /scripts/get_table_name.sh
+    
