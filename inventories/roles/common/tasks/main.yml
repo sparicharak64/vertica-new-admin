@@ -1,6 +1,5 @@
 ---
 - name: Second Task
-  host: master
   debug:
       msg:
         - 'Things left to do:'
