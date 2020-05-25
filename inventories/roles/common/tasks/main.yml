@@ -1,8 +1,6 @@
 ---
-- name: My first task
-  shell: sh /scripts/get_table_name.sh
-
 - name: Second Task
+  host: master
   debug:
       msg:
         - 'Things left to do:'
