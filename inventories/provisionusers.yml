@@ -1,5 +1,4 @@
 ---
-# file: provisionusers.yml
 - hosts: master
   gather_facts: no
   vars:
