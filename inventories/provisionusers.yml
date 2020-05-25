@@ -1,5 +1,5 @@
 ---
-- hosts: master
+- hosts: all
   gather_facts: no
   vars:
     db_name: advana
