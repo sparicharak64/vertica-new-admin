@@ -1,5 +1,6 @@
 ---
-- hosts: vertica-edw-dev.dsawsnprd.massmutual.com
+- name: In the eplaybook
+  hosts: master
   gather_facts: no
   vars:
     db_name: advana
