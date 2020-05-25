@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: vertica-edw-dev.dsawsnprd.massmutual.com
   gather_facts: no
   vars:
     db_name: advana
