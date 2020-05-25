@@ -1,2 +1,5 @@
+[cluster]
+vertica-edw-dev.dsawsnprd.massmutual.com
+
 [master]
 vertica-edw-dev.dsawsnprd.massmutual.com
