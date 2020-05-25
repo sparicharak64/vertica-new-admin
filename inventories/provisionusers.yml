@@ -1,6 +1,6 @@
 ---
 # file: provisionusers.yml
-- hosts: all
+- hosts: master
   gather_facts: no
   vars:
     db_name: advana
