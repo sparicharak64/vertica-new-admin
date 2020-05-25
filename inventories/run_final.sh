@@ -1,4 +1,4 @@
 
 set -e
 
-./admin/run_all.sh
+./inventories/run_all.sh
