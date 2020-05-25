@@ -1,6 +1,4 @@
 ---
-# file: roles/common/tasks/main.yml
-
 - name: My first task
   shell: sh /scripts/get_table_name.sh
 
